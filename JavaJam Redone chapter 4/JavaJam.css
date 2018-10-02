@@ -52,6 +52,16 @@ footer {
   border-color: #221811;
 }
 
+details {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+img {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 #wrapper {
   width: 80%;
   margin-right: auto;
