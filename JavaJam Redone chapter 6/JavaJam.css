@@ -22,7 +22,11 @@ h4 {
   background-color: #D2B48C;
   font-size: 1.2em;
   padding-left: .5em;
-  padding-bottom: .25em;
+  padding-bottom: 0;
+  text-transform: uppercase;
+  border-bottom-style: solid;
+  padding-bottom: 0;
+  clear: left;
 }
 
 main {
@@ -59,7 +63,7 @@ nav a:visited {
 nav a:hover {
   color: #CC9933;
 }
- 
+
 
 footer {
   background-color: #D2B48C;
@@ -108,8 +112,14 @@ main h2, h3, h4, p, div, ul, dl {
   padding-right: 2em;
 }
 
+nav ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
 
 #wrapper {
+  background-color: #231814;
   width: 80%;
   margin-right: auto;
   margin-left: auto;
