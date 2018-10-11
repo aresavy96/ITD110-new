@@ -143,6 +143,9 @@ nav ul {
   box-shadow: 5px 5px 5px #828282;
 }
 
+#mobile {display: none;}
+#desktop { display: none;}
+
 /* Austin resavy
     10/04/2018
     chapter 6 case study */
