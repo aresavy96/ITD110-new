@@ -39,7 +39,7 @@ h4 {
 main {
   padding-left: 0;
   padding-right: 0;
-  padding-bottom: 2em;
+  padding-bottom: 6em;
   padding-top: 0;
   margin-left: 200px;
   background-color: #FEF6C2;
@@ -51,6 +51,7 @@ nav {
   font-weight: bold;
   font-size: 1.5em;
   padding-top: 10px;
+  padding-left: 0;
   float: left;
   width: 200px;
   display: block;
@@ -81,9 +82,12 @@ footer {
   font-style: italic;
   text-align: center;
   padding-bottom: 10px;
+  padding-left: 0;
   border-top: 2px;
   border-color: #221811;
   display: block;
+  margin-left: 200px;
+  clear: both;
 }
 
 details {
@@ -122,9 +126,9 @@ img {
   background-repeat: no-repeat;
 }
 
-main h2, h3, h4, p, div, ul, dl {
+main h2, main h3, main h4, p, div, ul, dl {
   padding-left: 3em;
-  padding-right: 2em;
+  padding-right: 0;
 }
 
 nav ul {
