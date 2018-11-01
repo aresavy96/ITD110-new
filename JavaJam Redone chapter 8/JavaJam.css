@@ -217,7 +217,7 @@ main { margin: 0; font-size: 90%; }
 table {
   width: 90%;
   border-spacing: 0;
-  background-color: #D2B48C;
+  background-color: #FCEBB6;
 }
 
 th, td:nth-of-type(odd) {
