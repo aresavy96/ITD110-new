@@ -217,10 +217,14 @@ main { margin: 0; font-size: 90%; }
 table {
   width: 90%;
   border-spacing: 0;
-  background-color: #FCEBB6;
+  background-color: #FEF6C2;
+  margin: auto;
 }
 
-th, td:nth-of-type(odd) {
+td, th:nth-of-type(odd) {
   padding: 10px;
-  background-color: #D2B48E;
+  }
+
+  .altrow {
+    background-color: #D2B48E;
   }
