@@ -7,8 +7,8 @@
        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
        <!-- Austin resavy
-           10/04/2018
-           chapter 8 case study -->
+           11/01/2018
+           chapter 9 case study -->
 
 
   </head>
@@ -37,12 +37,22 @@
 
 
    <p>
-     Want to work at JavaJam? Fill out the form below to start your application.
+     Want to work at JavaJam? Fill out the form below to start your application.<br>
+     Required fields are marked with an asterisk (&ast;).
    </p>
 
-    <form>
-      Name:<input type="text" name="firstname"><br>
-      E-mail:<input type="text" name="myEmail">
+   <form action="http://webdevbasics.net/scripts/javajam8.php" method="post">
+
+      <label for="formcontrol">Name:</label>
+      <input type="text" name="myName" required>
+      <label for="formcontrol">E-mail:</label>
+      <input type="text" name="myEmail" id="formcontrol" required>
+      <label for="myExperience">Experience:</label>
+      <textarea name="myExperience" rows="2" cols="20" id="myExperience" required></textarea>
+
+    <input type="submit" value="Apply now" id="mySubmit">
+
+   </form>
 
 
 
