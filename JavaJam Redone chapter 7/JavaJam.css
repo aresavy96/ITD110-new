@@ -39,7 +39,7 @@ h4 {
 main {
   padding-left: 0;
   padding-right: 0;
-  padding-bottom: 0;
+  padding-bottom: 6em;
   padding-top: 0;
   margin-left: 200px;
   background-color: #FEF6C2;
@@ -86,8 +86,8 @@ footer {
   border-top: 2px;
   border-color: #221811;
   display: block;
-  margin-left: 200px;
   clear: both;
+
 }
 
 details {
@@ -127,7 +127,6 @@ img {
 }
 
 main h2, main h3, main h4, p, div, ul, dl {
-  padding-left: 3em;
   padding-right: 0;
 }
 
@@ -150,7 +149,7 @@ nav ul {
   margin-left: auto;
   min-width: 900px;
   max-width: 1280px;
-  box-shadow: 0px 5px 5px 5px #828282;
+  box-shadow: 5px 5px 5px #828282;
 }
 
 #mobile {display: none;}
@@ -192,7 +191,7 @@ main { margin: 0; font-size: 90%; }
 
   nav { margin: 0;}
 
-  nav a { display: block; padding: 0.2em; width: auto; border-bottom: 1px; border-color: #FEF6C2;}
+  nav a { display: block; padding: 0.2em; width: auto; border-bottom: 1px; border-bottom-style: solid; border-color: #FEF6C2;}
 
   nav li { display: block;}
 
